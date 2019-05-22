@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
+import WidgetLiturgiaGiorno from "../components/WidgteLiturgia";
+// import WidgetLiturgiaDomenica from "../components/WidgteLiturgiaDomenica";
 
 import Layout from "../components/Layout";
 // import Features from "../components/Features";
@@ -18,6 +20,8 @@ export const IndexPageTemplate = ({
     // intro
 
     content,
+    content_contacts,
+    content_holy_masses,
     contentComponent
 }) => {
     const PageContent = contentComponent || Content;
@@ -60,114 +64,51 @@ export const IndexPageTemplate = ({
                         </div>
                         <div className="column is-6 is-4-desktop">
                             <aside>
-                                <div className="notification">
-                                    <h2 className="title is-4">
-                                        Zona Pastorale di Castelfranco Emilia
-                                    </h2>
-                                    <h3 className="subtitle is-5">
-                                        ORARIO SANTE MESSE FESTIVE
-                                    </h3>
+                                <div className="tile is-parent">
+                                    <div className="tile is-child notification is-warning">
+                                        <p className="title is-4">
+                                            La Liturgia di oggi
+                                        </p>
 
-                                    <div className="content">
-                                        <strong>Prefestive</strong>
-                                        <ul>
-                                            <li>
-                                                18,00 Piumazzo (da novembre a
-                                                marzo)
-                                            </li>
-                                        </ul>
-
-                                        <strong>Festive</strong>
-                                        <ul>
-                                            <li>
-                                                18,00 Piumazzo (da novembre a
-                                                marzo)
-                                            </li>
-                                        </ul>
+                                        <WidgetLiturgiaGiorno />
                                     </div>
-                                    <h4 className="title is-4">Contatti</h4>
-                                    <ul>
-                                        <li>Castelfranco 059.926226 Gaggio</li>
-                                        <li>
-                                            059.938008 Manzolino 059.939122
-                                            Panzano
-                                        </li>
-                                        <li>059.926707 Piumazzo 059.931208</li>
-                                    </ul>
+                                </div>
+                                <div className="tile is-parent">
+                                    <div className="tile is-child notification is-warning">
+                                        <p className="title is-4">
+                                            Liturgia della Domenica
+                                        </p>
+
+                                        <WidgetLiturgiaGiorno sunday />
+                                    </div>
                                 </div>
                             </aside>
                         </div>
                     </div>
 
                     <div className="tile is-ancestor">
-                        <div class="tile is-parent">
-                            <div class="tile is-child notification is-warning">
-                                <p className="title is-4">
-                                    La Liturgia di oggi
-                                </p>
-                                <p>
-                                    <a
-                                        target="_blank"
-                                        href="http://www.lachiesa.it/calendario/Detailed/20190518.shtml"
-                                    >
-                                        Sabato della IV settimana di Pasqua
-                                    </a>
-                                    <br />
-                                    <i>(Bianco)</i>
-                                    <br />
-                                    <b>I Lettura</b>
-                                    <font size="-1"> At 13,44-52</font>
-                                    <br />
-                                    Noi ci rivolgiamo ai pagani.
-                                    <br />
-                                    <b>Salmo</b>
-                                    <font size="-1"> (Sal 97)</font>
-                                    <br />
-                                    Tutti i confini della terra hanno veduto la
-                                    vittoria del nostro Dio.
-                                    <br />
-                                    <b>Vangelo</b>
-                                    <font size="-1"> Gv 14,7-14</font>
-                                    <br />
-                                    Chi ha visto me, ha visto il Padre.
-                                </p>
+                        <div className="tile is-parent is-8">
+                            <div className="tile is-child notification is-link">
+                                <h2 className="title is-4">
+                                    Zona Pastorale di Castelfranco Emilia
+                                </h2>
+                                <h3 className="subtitle is-5">
+                                    ORARIO SANTE MESSE FESTIVE
+                                </h3>
+
+                                <div className="content">
+                                    <PageContent
+                                        content={content_holy_masses}
+                                    />
+
+                                    <h4 className="title is-4">Contatti</h4>
+                                    <PageContent content={content_contacts} />
+                                </div>
                             </div>
                         </div>
-                        <div class="tile is-parent">
-                            <div class="tile is-child notification is-warning">
-                                <p className="title is-4">
-                                    Liturgia della Domenica
-                                </p>
-                                <p>
-                                    <a
-                                        target="_blank"
-                                        href="http://www.lachiesa.it/calendario/Detailed/20190518.shtml"
-                                    >
-                                        Sabato della IV settimana di Pasqua
-                                    </a>
-                                    <br />
-                                    <i>(Bianco)</i>
-                                    <br />
-                                    <b>I Lettura</b>
-                                    <font size="-1"> At 13,44-52</font>
-                                    <br />
-                                    Noi ci rivolgiamo ai pagani.
-                                    <br />
-                                    <b>Salmo</b>
-                                    <font size="-1"> (Sal 97)</font>
-                                    <br />
-                                    Tutti i confini della terra hanno veduto la
-                                    vittoria del nostro Dio.
-                                    <br />
-                                    <b>Vangelo</b>
-                                    <font size="-1"> Gv 14,7-14</font>
-                                    <br />
-                                    Chi ha visto me, ha visto il Padre.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tile is-parent">
-                            <div class="tile is-child notification">
+
+                        <div className="tile is-parent ">
+                            <div className="tile is-child notification content">
                                 <p className="title is-4">Link utili</p>
                                 <ul>
                                     <li>
@@ -222,7 +163,7 @@ export const IndexPageTemplate = ({
                 </div>
             </section>
 
-            <div class="has-background-info ">
+            <div className="has-background-info ">
                 <section className="section has-text-white has-text-centered">
                     <h2 className="title is-2 has-text-white">Contatti</h2>
 
@@ -322,6 +263,8 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
     content: PropTypes.string,
+    content_holy_masses: PropTypes.string,
+    content_contacts: PropTypes.string,
     contentComponent: PropTypes.func
 };
 
@@ -333,6 +276,8 @@ const IndexPage = ({ data }) => {
             <IndexPageTemplate
                 contentComponent={HTMLContent}
                 content={post.html}
+                // content_holy_masses={post.fields.html_holy_masses_hours}
+                // content_contacts={post.fields.html_contacts}
             />
         </Layout>
     );
@@ -355,6 +300,10 @@ export const pageQuery = graphql`
             frontmatter {
                 title
             }
+            # fields {
+            #     html_holy_masses_hours
+            #     html_contacts
+            # }
         }
     }
 `;

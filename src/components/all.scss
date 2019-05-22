@@ -165,3 +165,28 @@ $family-sans-serif: "Source Sans Pro", sans-serif;
 .header_brand__title {
     font-size: 2em;
 }
+
+.widget-liturgia > div {
+    [id^="nav"],
+    [id^="liturgico"],
+    [id^="liturgiagiorno"] header,
+    [id^="head"] {
+        display: none;
+    }
+
+    [id^="testorosso"] {
+        font-weight: bold;
+    }
+
+    [id^="versetto"] {
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    a {
+        text-decoration: none !important;
+        &:hover {
+            text-decoration: dotted;
+        }
+    }
+}

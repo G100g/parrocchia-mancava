@@ -3,7 +3,7 @@ import React, { createRef, useEffect } from "react";
 function getSunday(d) {
     d = new Date(d);
     const day = d.getDay();
-    const diff = d.getDate() + day + (day == 0 ? 0 : 1); // adjust when day is sunday
+    const diff = d.getDate() + day + (day === 0 ? 0 : 1); // adjust when day is sunday
     return new Date(d.setDate(diff));
 }
 
@@ -14,7 +14,7 @@ function formatDate(date) {
 const WidgetLiturgia = ({ sunday = false, className }) => {
     const ref = createRef();
 
-    const e = useEffect(() => {
+    useEffect(() => {
         let date = formatDate(sunday ? getSunday(new Date()) : new Date());
 
         const script = document.createElement("script");
@@ -30,10 +30,6 @@ const WidgetLiturgia = ({ sunday = false, className }) => {
 
         ref.current.innerHTML = "";
         ref.current.appendChild(script);
-        // return () => {
-        //     ref.current
-        //     ref.current.innerHTML = "";
-        // };
     });
 
     return (

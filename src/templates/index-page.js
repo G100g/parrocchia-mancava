@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
 import WidgetLiturgiaGiorno from "../components/WidgteLiturgia";
 // import WidgetLiturgiaDomenica from "../components/WidgteLiturgiaDomenica";
@@ -100,7 +100,8 @@ export const IndexPageTemplate = ({
                                     <PageContent
                                         content={content_holy_masses}
                                     />
-
+                                </div>
+                                <div className="content">
                                     <h4 className="title is-4">Contatti</h4>
                                     <PageContent content={content_contacts} />
                                 </div>
@@ -153,7 +154,7 @@ export const IndexPageTemplate = ({
                                     </li>
                                     <li>
                                         <a href="http://www.chiesacattolica.it/">
-                                            www.chiesacattolica.it/
+                                            www.chiesacattolica.it
                                         </a>
                                     </li>
                                 </ul>
@@ -276,8 +277,9 @@ const IndexPage = ({ data }) => {
             <IndexPageTemplate
                 contentComponent={HTMLContent}
                 content={post.html}
-                // content_holy_masses={post.fields.html_holy_masses_hours}
-                // content_contacts={post.fields.html_contacts}
+                content_holy_masses={post.fields.html_holy_masses_hours}
+                content_contacts={post.fields.html_contacts}
+                content_links={post.fields.html_links}
             />
         </Layout>
     );
@@ -300,10 +302,11 @@ export const pageQuery = graphql`
             frontmatter {
                 title
             }
-            # fields {
-            #     html_holy_masses_hours
-            #     html_contacts
-            # }
+            fields {
+                html_holy_masses_hours
+                html_contacts
+                html_links
+            }
         }
     }
 `;

@@ -170,6 +170,47 @@ collections:
                   }
                 # - { label: "Title", name: "title", widget: "string" }
                 - { label: "Bacheca", name: "body", widget: "markdown" }
+                - {
+                      label: Zona Pastorale,
+                      name: intro,
+                      widget: object,
+                      fields: [
+                              # { label: Heading, name: heading, widget: string },
+                              {
+                                  label: Orario Sante Messe,
+                                  name: holy_masses_hours,
+                                  widget: markdown,
+                              },
+                              {
+                                  label: Contatti,
+                                  name: contacts,
+                                  widget: markdown,
+                              },
+                              {
+                                  label: Link utili,
+                                  name: links,
+                                  widget: markdown,
+                              },
+                          ],
+                  }
+          # {
+          #     label: Blurbs,
+          #     name: blurbs,
+          #     widget: list,
+          #     fields:
+          #         [
+          #             {
+          #                 label: Image,
+          #                 name: image,
+          #                 widget: image,
+          #             },
+          #             {
+          #                 label: Text,
+          #                 name: text,
+          #                 widget: text,
+          #             },
+          #         ],
+          # },
           - file: "src/pages/about/index.md"
             label: "About"
             name: "about"

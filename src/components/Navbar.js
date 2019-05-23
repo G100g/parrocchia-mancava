@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+// import github from "../img/github-icon.svg";
+// import logo from "../img/logo.svg";
+import logo from "../img/logo-mancava.svg";
 
 const Navbar = class extends React.Component {
     constructor(props) {
@@ -43,11 +44,16 @@ const Navbar = class extends React.Component {
                     <div className="navbar-brand">
                         <div className="header_brand has-text-warning">
                             <Link to="/" title="Mancava">
-                                <span className="header_brand__title has-text-white">
+                                <img
+                                    src={logo}
+                                    alt="Parrocchie di Manzolino e Cavazzona"
+                                    style={{ width: "320px" }}
+                                />
+                                {/* <span className="header_brand__title has-text-white">
                                     ManCava
-                                </span>
+                                </span> */}
                             </Link>
-                            Parrocchia di Manzolino e Cavazzona
+                            {/* Parrocchia di Manzolino e Cavazzona */}
                         </div>
                         {/* Hamburger menu */}
                         <div

@@ -190,3 +190,35 @@ $family-sans-serif: "Source Sans Pro", sans-serif;
         }
     }
 }
+
+.gatsby-resp-image-link {
+    .gatsby-resp-image-wrapper {
+        position: relative;
+
+        border: 1px solid $white-ter;
+        margin-bottom: 2rem;
+
+        &::before {
+            content: "Clicca per ingrandire";
+            display: block;
+            position: absolute;
+            top: -20px;
+            right: -1px;
+            padding: 0 10px;
+            border-radius: 5px 5px 0 0;
+            font-size: 0.8rem;
+            z-index: 1;
+            background-color: $grey-lighter;
+            color: $white;
+            line-height: 20px;
+        }
+
+        &:hover {
+            border: 1px solid $grey-lighter;
+
+            &::before {
+                color: $grey;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+.content {
+    .school-contacts__list {
+        margin-left: 0;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            margin-left: 0.51rem;
+            text-decoration: none;
+        }
+    }
+}
+
+.school-images {
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+    // align-items: center;
+
+    &__image {
+        // width: 33%;
+        padding: 0.3rem;
+        margin-bottom: 0.3rem;
+        background-color: $white;
+    }
+}

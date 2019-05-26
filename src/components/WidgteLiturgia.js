@@ -19,12 +19,12 @@ const WidgetLiturgia = ({ sunday = false, className }) => {
 
         const script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = `https://widgets.chiesacattolica.it/widget-almanacco-v2/widget.php?mods=401568&font=8&date=${date}`;
+        script.src = `https://widgets.chiesacattolica.it/widget-almanacco-v2/widget.php?mods=401568&font=8&date=${date}&className=${className}`;
         script.async = true;
         script.onload = function() {
             if (ref.current) {
-                const $style = ref.current.querySelector("style");
-                $style && $style.remove();
+                const $style = ref.current.querySelectorAll("style");
+                $style && $style.forEach(el => el.remove());
             }
         };
 

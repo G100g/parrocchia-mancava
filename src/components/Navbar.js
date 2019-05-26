@@ -78,12 +78,17 @@ const Navbar = class extends React.Component {
                         <div className="navbar-end has-text-centered">
                             <div className="navbar-item">
                                 <div className="buttons">
-                                    <Link className="button is-warning" to="/">
+                                    <Link
+                                        className="button is-white"
+                                        to="/"
+                                        activeClassName="is-warning"
+                                    >
                                         Parrocchia
                                     </Link>
                                     <Link
                                         className="button is-white"
                                         to="/scuola"
+                                        activeClassName="is-warning"
                                     >
                                         Scuola
                                     </Link>

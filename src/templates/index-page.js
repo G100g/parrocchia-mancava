@@ -31,39 +31,12 @@ export const IndexPageTemplate = ({
                 <div className="container">
                     <div className="columns">
                         <div className="column">
-                            <div class="box">
+                            <div className="box">
                                 <h1 className="title is-1">Bacheca</h1>
                                 <PageContent
                                     className="content"
                                     content={content}
                                 />
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit
-                                    esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum.
-                                </p>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit
-                                    esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum.
-                                </p>
                             </div>
                         </div>
                         <div className="column is-6 is-4-desktop">
@@ -74,7 +47,7 @@ export const IndexPageTemplate = ({
                                             La Liturgia di oggi
                                         </p>
 
-                                        <WidgetLiturgiaGiorno />
+                                        <WidgetLiturgiaGiorno className="giorno" />
                                     </div>
                                 </div>
                                 <div className="tile is-parent">
@@ -210,58 +183,6 @@ export const IndexPageTemplate = ({
                     </div>
                 </section>
             </div>
-
-            {/* <section className="section section--gradient">
-            <div className="container">
-                <div className="section">
-                    <div className="columns">
-                        <div className="column is-10 is-offset-1">
-                            <div className="content">
-                                <div className="content">
-                                    <div className="tile">
-                                        <h1 className="title">
-                                            {mainpitch.title}
-                                        </h1>
-                                    </div>
-                                    <div className="tile">
-                                        <h3 className="subtitle">
-                                            {mainpitch.description}
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div className="columns">
-                                    <div className="column is-12">
-                                        <h3 className="has-text-weight-semibold is-size-2">
-                                            {heading}
-                                        </h3>
-                                        <p>{description}</p>
-                                    </div>
-                                </div>
-                                <Features gridItems={intro.blurbs} />
-                                <div className="columns">
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/products">
-                                            See all products
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="column is-12">
-                                    <h3 className="has-text-weight-semibold is-size-2">
-                                        Latest stories
-                                    </h3>
-                                    <BlogRoll />
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/blog">
-                                            Read more
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> */}
         </div>
     );
 };

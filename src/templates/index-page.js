@@ -1,24 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faSchool,
+    faChild,
+    faArrowCircleRight
+} from "@fortawesome/free-solid-svg-icons";
+
 import Content, { HTMLContent } from "../components/Content";
 import WidgetLiturgiaGiorno from "../components/WidgteLiturgia";
 // import WidgetLiturgiaDomenica from "../components/WidgteLiturgiaDomenica";
 
 import Layout from "../components/Layout";
-// import Features from "../components/Features";
-// import BlogRoll from "../components/BlogRoll";
 
 export const IndexPageTemplate = ({
-    // body
-    // image,
-    // title,
-    // heading,
-    // subheading,
-    // mainpitch,
-    // description,
-    // intro
-
     content,
     content_contacts,
     content_holy_masses,
@@ -31,6 +28,16 @@ export const IndexPageTemplate = ({
                 <div className="container">
                     <div className="columns">
                         <div className="column">
+                            <div className="box has-background-link is-size-4 is-size-6-mobile">
+                                <Link to="/scuola" className="has-text-white">
+                                    <FontAwesomeIcon
+                                        // className={"is-pulled-right"}
+                                        icon={faChild}
+                                    />
+                                    {"   "}
+                                    Scuola Dell’Infanzia Sacro Cuore{" "}
+                                </Link>
+                            </div>
                             <div className="box">
                                 <h1 className="title is-1">Bacheca</h1>
                                 <PageContent

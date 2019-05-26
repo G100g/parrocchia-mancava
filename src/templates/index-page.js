@@ -29,13 +29,25 @@ export const IndexPageTemplate = ({
                     <div className="columns">
                         <div className="column">
                             <div className="box has-background-link is-size-4 is-size-6-mobile">
-                                <Link to="/scuola" className="has-text-white">
-                                    <FontAwesomeIcon
-                                        // className={"is-pulled-right"}
-                                        icon={faChild}
-                                    />
+                                <Link
+                                    to="/scuola"
+                                    className="has-text-white"
+                                    style={{}}
+                                >
+                                    <span className="icon is-inline">
+                                        <FontAwesomeIcon
+                                            // className={"is-pulled-right"}
+                                            icon={faChild}
+                                        />
+                                    </span>
                                     {"   "}
                                     Scuola Dell’Infanzia Sacro Cuore{" "}
+                                    <span className="icon is-inline is-pulled-right">
+                                        <FontAwesomeIcon
+                                            className={""}
+                                            icon={faArrowCircleRight}
+                                        />
+                                    </span>
                                 </Link>
                             </div>
                             <div className="box">

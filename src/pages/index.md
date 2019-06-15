@@ -24,16 +24,23 @@ intro:
     * 11.00 Gaggio e Piumazzo
     * 11.15 Castelfranco, Cavazzona e Panzano
     * 18.30 Castelfranco
-  links: |-
+  links: >-
     * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
-    * Educat
-    * LaChiesa.it
-    * Maràn athà
-    * Parrocchia di Castelfranco Emilia
-    * Parrocchia di Piumazzo
-    * Qumran2
-    * Vaticano On Line
-    * www.chiesacattolica.it/
+
+    * [LaChiesa.it](http://www.lachiesa.it/)
+
+    * [Maràn athà](https://www.maranatha.it/index.htm)
+
+    * [Parrocchia di Castelfranco
+    Emilia](http://www.parrocchiacastelfrancoe.it/)
+
+    * [Parrocchia di Piumazzo](https://www.parrocchiapiumazzo.com/)
+
+    * [Qumran2](https://www.qumran2.net/)
+
+    * [Vaticano On Line](http://www.vatican.va)
+
+    * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
 ![](/img/er11.jpg)
 

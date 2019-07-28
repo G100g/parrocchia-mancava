@@ -42,8 +42,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/er11.jpg)
-
-![](/img/er21.jpg)
-
-![](/img/er31.jpg)
+![](/img/luglio2019.jpg)

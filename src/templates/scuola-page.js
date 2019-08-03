@@ -68,6 +68,57 @@ export const ScuolaPageTemplate = ({
                 <div className="container">
                     <div className="columns">
                         <div className="column is-8">
+                            <div className="box">
+                                <h1 className="title is-1">Bacheca avvisi</h1>
+
+                                <div className="tile">
+                                    <article className="tile is-child content">
+                                        <h2 className="title is-4">
+                                            Lunedì 2 Settembre 2019
+                                            <br />
+                                            Primo giorno insieme
+                                        </h2>
+                                        <p className="subtitle is-spaced">
+                                            Vi aspettiamo e che la festa abbia
+                                            inizio
+                                        </p>
+
+                                        <h3 className="title is-5">
+                                            Per Grandi e Mezzani
+                                        </h3>
+
+                                        <p>
+                                            Lunedì 2 Settembre e Martedì 3
+                                            settembre
+                                            <br />
+                                            <strong>
+                                                dalle 10:15 alle 16:30
+                                            </strong>
+                                        </p>
+
+                                        <p>
+                                            Da Mercoledì 4 Settembre
+                                            <br />
+                                            <strong>
+                                                dalle 8:00 alle 16:30
+                                            </strong>
+                                            <br />
+                                            (servizio pre-scuola 7:30 e post
+                                            scuola 17/17:30 in base alle
+                                            richieste, attivi )
+                                        </p>
+
+                                        <h3 className="title is-5">
+                                            Per Piccoli
+                                        </h3>
+                                        <p>
+                                            come da avviso consegnato ai
+                                            genitori
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+
                             <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                                 La struttura
                             </h2>

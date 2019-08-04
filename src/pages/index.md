@@ -24,7 +24,7 @@ intro:
     * 10,00 Castelfranco e Piumazzo
     * 11.00 Gaggio e Piumazzo
     * 11.15 Castelfranco, Cavazzona e Panzano
-    * 18.30 Castelfranco
+    * 18.30 Castelfranco (tranne il mese di Agosto)
   links: >-
     * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
 

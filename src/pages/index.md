@@ -43,4 +43,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/luglio2019.jpg)
+![](/img/2d2.jpg)

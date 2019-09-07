@@ -43,6 +43,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/2d2.jpg)
-
-![](/img/1d2.jpg)
+![](/img/8-15-set.jpg)

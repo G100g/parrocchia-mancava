@@ -43,4 +43,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/8-15-set.jpg)
+![](/img/whatsapp-image-2019-09-13-at-17.39.15.jpeg)

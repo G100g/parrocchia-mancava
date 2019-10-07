@@ -43,4 +43,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/festa.jpg)
+![]()

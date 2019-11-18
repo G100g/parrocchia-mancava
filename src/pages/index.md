@@ -43,7 +43,9 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/whatsapp-image-2019-11-13-at-08.09.49.jpeg)
+![](/img/03914124-7e73-40f9-9d5a-aef5910fd587.jpg)
+
+![](/img/cf920711-fe0f-4d52-bd1e-836cada85b87.jpg)
 
 ![](/img/whatsapp-image-2019-11-11-at-12.14.24.jpeg)
 

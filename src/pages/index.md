@@ -43,7 +43,7 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/03914124-7e73-40f9-9d5a-aef5910fd587.jpg)
+![](/img/58c9b1d2-d707-4692-8c49-1b30d35f146f.jpg)
 
 ![](/img/cf920711-fe0f-4d52-bd1e-836cada85b87.jpg)
 

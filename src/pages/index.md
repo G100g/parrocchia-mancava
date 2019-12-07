@@ -60,8 +60,6 @@ intro:
 ---
 ![](/img/8f4a3c08-bd4a-4afb-a595-0dbc2a0f6b19.jpg)
 
-![](/img/cf920711-fe0f-4d52-bd1e-836cada85b87.jpg)
-
 ![](/img/whatsapp-image-2019-11-11-at-12.14.24.jpeg)
 
 ![](/img/whatsapp-image-2019-11-07-at-22.20.52.jpeg)

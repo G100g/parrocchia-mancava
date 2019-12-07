@@ -58,7 +58,7 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/bb997586-1288-46eb-bb7c-0ab9b4535eab.jpg)
+![](/img/8f4a3c08-bd4a-4afb-a595-0dbc2a0f6b19.jpg)
 
 ![](/img/cf920711-fe0f-4d52-bd1e-836cada85b87.jpg)
 

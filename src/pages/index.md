@@ -58,10 +58,14 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/8f4a3c08-bd4a-4afb-a595-0dbc2a0f6b19.jpg)
+![](/img/whatsapp-image-2020-01-30-at-08.19.49-2-.jpeg)
 
-![](/img/whatsapp-image-2019-11-11-at-12.14.24.jpeg)
+![](/img/whatsapp-image-2020-01-30-at-08.19.49-1-.jpeg)
 
-![](/img/whatsapp-image-2019-11-07-at-22.20.52.jpeg)
+![](/img/whatsapp-image-2020-01-30-at-08.19.49.jpeg)
+
+![](/img/whatsapp-image-2020-01-30-at-08.19.49-3-.jpeg)
 
 ![](/img/whatsapp-image-2019-11-01-at-19.37.24.jpeg)
+
+![](/img/whatsapp-image-2019-11-07-at-22.20.52.jpeg)

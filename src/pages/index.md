@@ -1,11 +1,53 @@
 ---
 templateKey: index-page
 intro:
-  contacts: |-
+  contacts: >-
+    # **Segreteria Parrocchiale** 
+
+
+    delle comunità di Cavazzona Manzolino Panzano Rastellino Recovato Riolo
+
+
+
+
+    La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30 a
+    Panzano**
+
+
+    Telefono: 059-926707
+
+
+    mail: manzocava@gmai.com
+
+
+    mail: parrocchielarete@gmail.com
+
+
+    La segreteria è a disposizione per:
+
+
+    CERTIFICARTI
+
+
+    INTENZIONI DELLE MESSE
+
+
+    INFORMAZIONI
+
+
+
+
+    **Numeri Utili  Parrocchie di:**
+
+
     * **Castelfranco** 059.926226
+
     * **Gaggio** 059.938008
+
     * **Manzolino** 059.939122
+
     * **Panzano** 059.926707
+
     * **Piumazzo** 059.931208
   holy_masses_hours: >-
     Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata

@@ -109,5 +109,3 @@ intro:
 ![](/img/whatsapp-image-2020-01-30-at-08.19.49-3-.jpeg)
 
 ![](/img/whatsapp-image-2019-11-01-at-19.37.24.jpeg)
-
-![](/img/whatsapp-image-2019-11-07-at-22.20.52.jpeg)

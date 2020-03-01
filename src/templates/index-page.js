@@ -23,186 +23,96 @@ export const IndexPageTemplate = ({
 }) => {
     const PageContent = contentComponent || Content;
     return (
-        <div>
-            <section className="section section--gradient">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column">
-                            <div className="box has-background-link is-size-4 is-size-6-mobile">
-                                <Link
-                                    to="/scuola"
-                                    className="has-text-white"
-                                    style={{}}
-                                >
-                                    <span className="icon is-inline">
-                                        <FontAwesomeIcon
-                                            // className={"is-pulled-right"}
-                                            icon={faChild}
-                                        />
-                                    </span>
-                                    {"   "}
-                                    Scuola Dell’Infanzia Sacro Cuore{" "}
-                                    <span className="icon is-inline is-pulled-right">
-                                        <FontAwesomeIcon
-                                            className={""}
-                                            icon={faArrowCircleRight}
-                                        />
-                                    </span>
-                                </Link>
-                            </div>
-                            <div className="box">
-                                <h1 className="title is-1">Bacheca</h1>
-                                <PageContent
-                                    className="content"
-                                    content={content}
-                                />
-                            </div>
-                        </div>
-                        <div className="column is-6 is-4-desktop">
-                            <aside className="tile is-ancestor is-vertical">
-                                <div className="tile is-parent">
-                                    <div className="tile is-child notification is-warning">
-                                        <p className="title is-4">
-                                            La Liturgia di oggi
-                                        </p>
-
-                                        <WidgetLiturgiaGiorno className="giorno" />
-                                    </div>
+        <section className="section section--gradient">
+            <div className="container">
+                <div className="columns is-vcentered is-multiline">
+                    <div className="column is-12">
+                        <div className="box has-background-primary is-size-4 is-size-6-mobile">
+                            <Link
+                                to="/parrocchie"
+                                className="has-text-white is-block"
+                            >
+                                <span className="icon is-inline is-pulled-right">
+                                    <FontAwesomeIcon
+                                        className={""}
+                                        icon={faArrowCircleRight}
+                                    />
+                                </span>
+                                <div class="title has-text-white">
+                                    Parrocchie{" "}
                                 </div>
-                                <div className="tile is-parent">
-                                    <div className="tile is-child notification is-warning">
-                                        <p className="title is-4">
-                                            Liturgia della Domenica
-                                        </p>
-
-                                        <WidgetLiturgiaGiorno sunday />
-                                    </div>
+                                <div class="subtitle has-text-white">
+                                    Manzolino • Cavazzona • Panzano • Riolo •
+                                    Recovato • Rastellino
                                 </div>
-                            </aside>
+                            </Link>
                         </div>
                     </div>
 
-                    <div className="tile is-ancestor">
-                        <div className="tile is-parent is-8">
-                            <div className="tile is-child notification is-link">
-                                <h2 className="title is-4">
-                                    Zona Pastorale di Castelfranco Emilia
-                                </h2>
-                                <h3 className="subtitle is-5">
-                                    ORARIO SANTE MESSE FESTIVE
-                                </h3>
-
-                                <div className="content">
-                                    <PageContent
-                                        content={content_holy_masses}
+                    <div className="column is-6">
+                        <div className="box has-background-link is-size-4 is-size-6-mobile">
+                            <Link
+                                to="/scuola"
+                                className="has-text-white is-block"
+                                style={{}}
+                            >
+                                <span className="icon is-inline is-pulled-right">
+                                    <FontAwesomeIcon
+                                        className={""}
+                                        icon={faArrowCircleRight}
                                     />
+                                </span>
+                                <div class="title has-text-white">
+                                    Sacro Cuore{" "}
                                 </div>
-                                <div className="content">
-                                    <h4 className="title is-4">Contatti</h4>
-                                    <PageContent content={content_contacts} />
+                                <div class="subtitle has-text-white">
+                                    Scuola Dell’Infanzia di Manzolino{" "}
                                 </div>
-                            </div>
+                            </Link>
                         </div>
+                    </div>
 
-                        <div className="tile is-parent ">
-                            <div className="tile is-child notification content">
-                                <p className="title is-4">Link utili</p>
-                                <ul>
-                                    <li>
-                                        <a href="http://www.bologna.chiesacattolica.it/">
-                                            Arcidiocesi di Bologna
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.educat.it">
-                                            Educat
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.lachiesa.it">
-                                            LaChiesa.it
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.maranatha.it/index.htm">
-                                            Maràn athà
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.parrocchiacastelfrancoe.it/">
-                                            Parrocchia di Castelfranco Emilia
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.parrocchiapiumazzo.com">
-                                            Parrocchia di Piumazzo
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.qumran2.net">
-                                            Qumran2
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.vatican.va/phome_it.htm">
-                                            Vaticano On Line
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.chiesacattolica.it/">
-                                            www.chiesacattolica.it
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div className="column is-6">
+                        <div className="box has-background-info is-size-4 is-size-6-mobile">
+                            <Link
+                                to="/scuola-salvioli"
+                                className="has-text-white is-block"
+                                style={{}}
+                            >
+                                <span className="icon is-inline is-pulled-right">
+                                    <FontAwesomeIcon
+                                        className={""}
+                                        icon={faArrowCircleRight}
+                                    />
+                                </span>
+                                <div class="title has-text-white">
+                                    Ferninando Savioli{" "}
+                                </div>
+                                <div class="subtitle has-text-white">
+                                    Scuola Dell’Infanzia di Riolo
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="column is-12">
+                        <div className="box has-background-danger is-size-4 is-size-6-mobile">
+                            <Link
+                                to="/dynamis"
+                                className="has-text-white is-block"
+                            >
+                                Associazione Dynamis
+                                <span className="icon is-inline is-pulled-right">
+                                    <FontAwesomeIcon
+                                        className={""}
+                                        icon={faArrowCircleRight}
+                                    />
+                                </span>
+                            </Link>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <div className="has-background-info ">
-                <section className="section has-text-white has-text-centered">
-                    <h2 className="title is-2 has-text-white">Contatti</h2>
-
-                    <div className="content ">
-                        <p>
-                            <strong className="has-text-white">
-                                Don Emanuele Nadalini
-                            </strong>
-                            <br />
-                            Tel. 059 939122
-                        </p>
-                    </div>
-
-                    <div className="columns">
-                        <div className="column">
-                            <p>
-                                <strong className="has-text-white">
-                                    Parrocchia San Bartolomeo di Manzolino
-                                </strong>
-                                <br />
-                                Via G. D’Annunzio, 42 41013
-                                <br />
-                                Manzolino di Castelfranco Emilia MO
-                            </p>
-                        </div>
-
-                        <div className="column">
-                            <p>
-                                <strong className="has-text-white">
-                                    Parrocchia Santa Clelia Barbieri di
-                                    Cavazzona
-                                </strong>
-                                <br />
-                                Via Cassola di Sotto, 15 41013
-                                <br />
-                                Cavazzona di Castelfranco Emilia MO
-                            </p>
-                        </div>
-                    </div>
-                </section>
             </div>
-        </div>
+        </section>
     );
 };
 

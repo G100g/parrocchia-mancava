@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 // import github from "../img/github-icon.svg";
 // import logo from "../img/logo.svg";
-import logo from "../img/logo-mancava.svg";
+import logo from "../img/logo-mancavalarete.svg";
 
 const Navbar = class extends React.Component {
     constructor(props) {
@@ -43,19 +43,14 @@ const Navbar = class extends React.Component {
                 <div className="container">
                     <div className="navbar-brand">
                         <div className="header_brand has-text-warning">
-                            <Link to="/" title="Mancava">
+                            <Link to="/" title="Mancava La rete">
                                 <img
                                     src={logo}
-                                    alt="Parrocchie di Manzolino e Cavazzona"
+                                    alt="Mancava la Rete - Parrocchie di Manzolino, Cavazzona, Panzano, Riolo, Recovato e Rastellino"
                                     style={{ width: "320px" }}
                                 />
-                                {/* <span className="header_brand__title has-text-white">
-                                    ManCava
-                                </span> */}
                             </Link>
-                            {/* Parrocchia di Manzolino e Cavazzona */}
                         </div>
-                        {/* Hamburger menu */}
                         <div
                             className={`navbar-burger burger ${
                                 this.state.navBarActiveClass
@@ -76,56 +71,39 @@ const Navbar = class extends React.Component {
                         }`}
                     >
                         <div className="navbar-end has-text-centered">
-                            <div className="navbar-item">
-                                <div className="buttons">
-                                    <Link
-                                        className="button is-white"
-                                        to="/"
-                                        activeClassName="is-warning"
-                                    >
-                                        Parrocchia
+                            <Link
+                                className=" navbar-item has-text-white has-text-weight-bold"
+                                to="/parrocchie"
+                                activeClassName="has-text-black"
+                            >
+                                Parrocchie
+                            </Link>
+                            <Link
+                                className=" navbar-item has-text-white has-text-weight-bold"
+                                to="/dynamis"
+                                activeClassName="has-text-black"
+                            >
+                                Dynamis
+                            </Link>
+
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link has-text-white has-text-weight-bold">
+                                    Scuole
+                                </a>
+
+                                <div class="navbar-dropdown">
+                                    <Link class="navbar-item" to="/scuola">
+                                        Manzolino
                                     </Link>
                                     <Link
-                                        className="button is-white"
-                                        to="/scuola"
-                                        activeClassName="is-warning"
+                                        class="navbar-item"
+                                        to="/scuola-riolo"
                                     >
-                                        Scuola
+                                        Riolo
                                     </Link>
                                 </div>
                             </div>
-
-                            {/* <Link className="navbar-item" to="/about">
-                                About
-                            </Link>
-                            <Link className="navbar-item" to="/products">
-                                Products
-                            </Link>
-                            <Link className="navbar-item" to="/blog">
-                                Blog
-                            </Link>
-                            <Link className="navbar-item" to="/contact">
-                                Contact
-                            </Link>
-                            <Link
-                                className="navbar-item"
-                                to="/contact/examples"
-                            >
-                                Form Examples
-                            </Link> */}
                         </div>
-                        {/* <div className="navbar-end has-text-centered">
-                            <a
-                                className="navbar-item"
-                                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <span className="icon">
-                                    <img src={github} alt="Github" />
-                                </span>
-                            </a>
-                        </div> */}
                     </div>
                 </div>
             </nav>

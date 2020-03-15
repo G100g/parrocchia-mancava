@@ -1,88 +1,87 @@
 ---
 templateKey: parrocchie-page
 intro:
-    contacts: >-
-        #### Segreteria Parrocchiale
+  contacts: >-
+    #### Segreteria Parrocchiale
 
 
-        delle comunità di Cavazzona Manzolino Panzano Rastellino Recovato Riolo
+    delle comunità di Cavazzona Manzolino Panzano Rastellino Recovato Riolo
 
 
-        La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30 a Panzano**
+    La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30** a
+    Panzano
 
 
-        Telefono: 059-926707
+    Telefono: 059-926707
 
 
-        mail: manzocava@gmail.com
+    mail: manzocava@gmail.com
 
 
-        mail: parrocchielarete@gmail.com
+    mail: parrocchielarete@gmail.com
 
 
-        La segreteria è a disposizione per:
+    La segreteria è a disposizione per:
 
 
-        CERTIFICARTI
+    CERTIFICARTI
 
 
-        INTENZIONI DELLE MESSE
+    INTENZIONI DELLE MESSE
 
 
-        INFORMAZIONI
-
-    holy_masses_hours: >-
-        Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata
-        regolarmente
-
-
-        **Prefestive**
+    INFORMAZIONI
+  holy_masses_hours: >-
+    Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata
+    regolarmente
 
 
-        * 18.00 Piumazzo _(da novembre a marzo)_
-
-        * 18.30 Castelfranco e Riolo
-
-        * 19.00 Piumazzo _(da aprile ad ottobre)_
+    **Prefestive**
 
 
-        **Festive**
+    * 18.00 Piumazzo _(da novembre a marzo)_
+
+    * 18.30 Castelfranco e Riolo
+
+    * 19.00 Piumazzo _(da aprile ad ottobre)_
 
 
-        * 8.00 Castelfranco
+    **Festive**
 
-        * 8.30 Gaggio
 
-        * 9.00 Riolo o Recovato o Rastellino a rotazione
+    * 8.00 Castelfranco
 
-        * 9.30 Manzolino
+    * 8.30 Gaggio
 
-        * 10,00 Castelfranco e Piumazzo
+    * 9.00 Riolo o Recovato o Rastellino a rotazione
 
-        * 11.00 Gaggio e Piumazzo
+    * 9.30 Manzolino
 
-        * 11.15 Castelfranco, Cavazzona e Panzano
+    * 10,00 Castelfranco e Piumazzo
 
-        * 18.30 Castelfranco (tranne il mese di Agosto)
-    links: >-
-        * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
+    * 11.00 Gaggio e Piumazzo
 
-        * [LaChiesa.it](http://www.lachiesa.it/)
+    * 11.15 Castelfranco, Cavazzona e Panzano
 
-        * [Maràn athà](https://www.maranatha.it/index.htm)
+    * 18.30 Castelfranco (tranne il mese di Agosto)
+  links: >-
+    * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
 
-        * [Parrocchia di Castelfranco
-        Emilia](http://www.parrocchiacastelfrancoe.it/)
+    * [LaChiesa.it](http://www.lachiesa.it/)
 
-        * [Parrocchia di Piumazzo](https://www.parrocchiapiumazzo.com/)
+    * [Maràn athà](https://www.maranatha.it/index.htm)
 
-        * [Qumran2](https://www.qumran2.net/)
+    * [Parrocchia di Castelfranco
+    Emilia](http://www.parrocchiacastelfrancoe.it/)
 
-        * [Vaticano On Line](http://www.vatican.va)
+    * [Parrocchia di Piumazzo](https://www.parrocchiapiumazzo.com/)
 
-        * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
+    * [Qumran2](https://www.qumran2.net/)
+
+    * [Vaticano On Line](http://www.vatican.va)
+
+    * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-
 ![](/img/whatsapp-image-2020-02-24-at-21.02.26.jpeg)
 
 ![](/img/whatsapp-image-2020-01-30-at-08.19.49.jpeg)

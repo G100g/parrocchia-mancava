@@ -29,7 +29,7 @@ collections:
     - name: "pages"
       label: "Pages"
       files:
-          - file: "src/pages/index.md"
+          - file: "src/pages/parrocchie.md"
             label: "Parrocchie"
             name: "parrocchie"
             fields:

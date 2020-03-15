@@ -30,8 +30,8 @@ collections:
       label: "Pages"
       files:
           - file: "src/pages/index.md"
-            label: "Homepage"
-            name: "homepage"
+            label: "Parrocchie"
+            name: "parrocchie"
             fields:
                 - {
                       label: "Template Key",

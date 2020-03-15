@@ -86,17 +86,17 @@ const Navbar = class extends React.Component {
                                 Dynamis
                             </Link> */}
 
-                            <div class="navbar-item has-dropdown is-hoverable">
-                                <a class="navbar-link has-text-white has-text-weight-bold">
+                            <div className="navbar-item has-dropdown is-hoverable">
+                                <a className="navbar-link has-text-white has-text-weight-bold">
                                     Scuole
                                 </a>
 
-                                <div class="navbar-dropdown">
-                                    <Link class="navbar-item" to="/scuola">
+                                <div className="navbar-dropdown">
+                                    <Link className="navbar-item" to="/scuola">
                                         Manzolino
                                     </Link>
                                     <a
-                                        class="navbar-item"
+                                        className="navbar-item"
                                         href="http://www.scuolasavioli.it"
                                     >
                                         Riolo

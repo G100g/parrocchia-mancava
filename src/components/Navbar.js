@@ -78,13 +78,13 @@ const Navbar = class extends React.Component {
                             >
                                 Parrocchie
                             </Link>
-                            <Link
+                            {/* <Link
                                 className=" navbar-item has-text-white has-text-weight-bold"
                                 to="/dynamis"
                                 activeClassName="has-text-black"
                             >
                                 Dynamis
-                            </Link>
+                            </Link> */}
 
                             <div class="navbar-item has-dropdown is-hoverable">
                                 <a class="navbar-link has-text-white has-text-weight-bold">
@@ -95,12 +95,12 @@ const Navbar = class extends React.Component {
                                     <Link class="navbar-item" to="/scuola">
                                         Manzolino
                                     </Link>
-                                    <Link
+                                    <a
                                         class="navbar-item"
-                                        to="/scuola-riolo"
+                                        href="http://www.scuolasavioli.it"
                                     >
                                         Riolo
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

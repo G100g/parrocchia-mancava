@@ -76,7 +76,6 @@ export const IndexPageTemplate = ({
                                     />
                                 </div>
                                 <div className="content">
-                                    <h4 className="title is-4">Contatti</h4>
                                     <PageContent content={content_contacts} />
                                 </div>
                             </div>

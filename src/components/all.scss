@@ -147,6 +147,16 @@ $family-sans-serif: "Source Sans Pro", sans-serif;
 
 @import "~bulma/bulma";
 
+.tile.notification .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: currentColor;
+    }
+}
+
 .header_brand {
     // display: flex;
     // line-height: 1.5rem;

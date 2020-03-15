@@ -74,10 +74,9 @@ export const IndexPageTemplate = ({
 
                     <div className="column is-6">
                         <div className="box has-background-info is-size-4 is-size-6-mobile">
-                            <Link
-                                to="/scuola-salvioli"
+                            <a
+                                href="http://www.scuolasavioli.it"
                                 className="has-text-white is-block"
-                                style={{}}
                             >
                                 <span className="icon is-inline is-pulled-right">
                                     <FontAwesomeIcon
@@ -91,25 +90,27 @@ export const IndexPageTemplate = ({
                                 <div class="subtitle has-text-white">
                                     Scuola Dell’Infanzia di Riolo
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
-                    <div className="column is-12">
+                    {/* <div className="column is-12">
                         <div className="box has-background-danger is-size-4 is-size-6-mobile">
                             <Link
                                 to="/dynamis"
                                 className="has-text-white is-block"
                             >
-                                Associazione Dynamis
                                 <span className="icon is-inline is-pulled-right">
                                     <FontAwesomeIcon
                                         className={""}
                                         icon={faArrowCircleRight}
                                     />
                                 </span>
+                                <div class="title has-text-white">
+                                    Associazione Dynamis
+                                </div>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

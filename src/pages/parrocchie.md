@@ -82,8 +82,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/whatsapp-image-2020-02-24-at-21.02.26.jpeg)
-
-![](/img/whatsapp-image-2020-01-30-at-08.19.49.jpeg)
-
-![](/img/whatsapp-image-2019-11-01-at-19.37.24.jpeg)
+![](/img/whatsapp-image-2020-03-21-at-10.49.27.jpeg)

@@ -32,6 +32,14 @@ intro:
 
     INFORMAZIONI
   holy_masses_hours: >-
+    Mercoledì 27 maggio, se vuoi pregare insieme a noi, [clicca
+    qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
+
+
+    Domenica 31 maggio, se vuoi pregare con noi, [clicca
+    qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
+
+
     Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata
     regolarmente
 
@@ -50,8 +58,6 @@ intro:
 
 
     * 8.00 Castelfranco
-
-    * 8.30 Gaggio
 
     * 9.00 Recovato (tendone parrocchiale)
 

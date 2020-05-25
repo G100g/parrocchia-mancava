@@ -8,7 +8,7 @@ intro:
     delle comunità di Cavazzona Manzolino Panzano Rastellino Recovato Riolo
 
 
-    La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30** a
+    La segreteria è aperta dal **lunedì al venerdì dalle 08:00 alle 12:00** a
     Panzano
 
 
@@ -41,7 +41,7 @@ intro:
 
     * 18.00 Piumazzo _(da novembre a marzo)_
 
-    * 18.30 Castelfranco e Riolo
+    * 18.30 Castelfranco e Recovato (tendone parrocchiale)
 
     * 19.00 Piumazzo _(da aprile ad ottobre)_
 
@@ -53,15 +53,15 @@ intro:
 
     * 8.30 Gaggio
 
-    * 9.00 Riolo o Recovato o Rastellino a rotazione
+    * 9.00 Recovato (tendone parrocchiale)
 
-    * 9.30 Manzolino
+    * 9.30 Piumazzo e Manzolino (tendone parrocchiale)
 
-    * 10,00 Castelfranco e Piumazzo
+    * 10.00 Castelfranco e Gaggio di Piano 
 
-    * 11.00 Gaggio e Piumazzo
+    * 11.00 Piumazzo e Recovato (tendone parrocchiale)
 
-    * 11.15 Castelfranco, Cavazzona e Panzano
+    * 11.30 Castelfranco e Manzolino (tendone parrocchiale)
 
     * 18.30 Castelfranco (tranne il mese di Agosto)
   links: >-

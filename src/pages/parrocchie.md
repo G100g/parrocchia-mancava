@@ -32,14 +32,6 @@ intro:
 
     INFORMAZIONI
   holy_masses_hours: >-
-    Mercoledì 27 maggio, se vuoi pregare insieme a noi, [clicca
-    qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
-
-
-    Domenica 31 maggio, se vuoi pregare con noi, [clicca
-    qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
-
-
     Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata
     regolarmente
 
@@ -89,3 +81,7 @@ intro:
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
 ![](/img/25-05-2020.png)
+
+Mercoledì 27 maggio, se vuoi pregare insieme a noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
+
+Domenica 31 maggio, se vuoi pregare con noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).

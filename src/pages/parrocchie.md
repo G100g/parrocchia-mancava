@@ -82,6 +82,8 @@ intro:
 ---
 ![](/img/25-05-2020.png)
 
+![Graditissima visita del nostro Cardinale a Riolo per commemorare l'assassinio di Don Tarozzi del 15/05/1945 nel 75 anniversario della sua morte.](/img/39f954f0-020e-4389-8d5e-da36fa5caaf4.jpg "75° Anniversario della morte di Don Tarozzi")
+
 Mercoledì 27 maggio, se vuoi pregare insieme a noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
 
 Domenica 31 maggio, se vuoi pregare con noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).

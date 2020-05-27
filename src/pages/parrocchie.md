@@ -82,7 +82,7 @@ intro:
 ---
 ![](/img/25-05-2020.png)
 
-![](/img/39f954f0-020e-4389-8d5e-da36fa5caaf4.jpg "Il Card. Zuppi ha celebrato la S. messa a Riolo in occasione del 75 anniversario della morte di Don Tarozzi ")
+![](/img/img_4636.jpg)
 
 Mercoledì 27 maggio, se vuoi pregare il S. Rosario insieme a noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
 

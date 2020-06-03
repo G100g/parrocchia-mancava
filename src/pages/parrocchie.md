@@ -80,10 +80,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/25-05-2020.png)
-
-![](/img/img_4636.jpg)
-
-Mercoledì 27 maggio, se vuoi pregare il S. Rosario insieme a noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
-
-Domenica 31 maggio, se vuoi pregare il S. Rosario con noi, [clicca qui](https://us02web.zoom.us/j/84415381020?pwd=MGpzczhOVE9Kb3BJa2g3TjBGT3p6QT09).
+![](/img/03-06-2020.png)

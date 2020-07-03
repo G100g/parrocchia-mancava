@@ -81,3 +81,5 @@ intro:
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
 ![](/img/03-07-2020.png)
+
+![](/img/pellegrinaggio-cavazzona-budrie.jpg)

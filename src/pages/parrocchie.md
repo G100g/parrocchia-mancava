@@ -80,4 +80,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/26-06-2020.png)
+![](/img/03-07-2020.png)

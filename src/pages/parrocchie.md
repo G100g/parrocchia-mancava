@@ -80,6 +80,8 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/03-07-2020.png)
+![](/img/10-07-2020.png)
+
+![](/img/santa-rita.png)
 
 ![](/img/pellegrinaggio-cavazzona-budrie.jpg)

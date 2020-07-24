@@ -80,4 +80,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/17-07-2020.png)
+![](/img/24-07-2020.png)
+
+![](/img/24-07-2020-cinetour-sotto-le-stelle.jpeg)

@@ -82,4 +82,4 @@ intro:
 ---
 ![](/img/21-08-2020.png)
 
-![](/img/cinetour-sotto-le-stelle.png)
+![](/img/locandina-definitiva.jpg)

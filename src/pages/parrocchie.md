@@ -80,6 +80,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/21-08-2020.png)
+![](/img/28-08-2020.png)
 
 ![](/img/locandina-definitiva.jpg)

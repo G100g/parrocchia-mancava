@@ -5,10 +5,10 @@ intro:
     #### Segreteria Parrocchiale
 
 
-    delle comunità di Cavazzona Manzolino Panzano Rastellino Recovato Riolo
+    delle comunità di Cavazzona Manzolino Panzano Recovato Riolo Rastellino
 
 
-    La segreteria è aperta dal **lunedì al venerdì dalle 08:00 alle 12:00** a
+    La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30** a
     Panzano
 
 

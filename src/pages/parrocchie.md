@@ -80,6 +80,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/04-09-2020.png)
+![](/img/11-09-2020.png)
 
-![](/img/locandina-definitiva.jpg)
+![](/img/san-maurizio.png)

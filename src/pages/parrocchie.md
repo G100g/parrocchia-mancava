@@ -80,8 +80,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/18-09-2020.png)
-
-![](/img/san-maurizio.png)
+![](/img/25-09-2020.png)
 
 ![](/img/manzolino.png)

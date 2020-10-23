@@ -80,6 +80,8 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/16-10-2020.png)
+![](/img/23-10-20201.png)
 
-![](/img/manzolino.png)
+![](/img/23-10-20202.png)
+
+![](/img/missione-dei-catechisti.png)

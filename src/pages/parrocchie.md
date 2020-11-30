@@ -41,7 +41,11 @@ intro:
 
     * 18.00 Piumazzo _(da novembre a marzo)_
 
-    * 18.30 Castelfranco e Recovato (tendone parrocchiale)
+    * 18.30 Castelfranco 
+
+    * 18.30 Riolo
+
+    * 18.30 Gaggio di Piano 
 
     * 19.00 Piumazzo _(da aprile ad ottobre)_
 

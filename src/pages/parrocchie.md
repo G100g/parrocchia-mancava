@@ -84,4 +84,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/04-12-2020.png)
+![](/img/11-12-2020.png)
+
+![](/img/il-nuovo-messale.jpeg)

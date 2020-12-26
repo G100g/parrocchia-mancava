@@ -6,6 +6,7 @@ intro:
 
 
     delle comunità di Cavazzona Manzolino Panzano Recovato Riolo Rastellino
+    Gaggio di Piano
 
 
     La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30** a
@@ -24,7 +25,7 @@ intro:
     La segreteria è a disposizione per:
 
 
-    CERTIFICARTI
+    CERTIFICATI
 
 
     INTENZIONI DELLE MESSE
@@ -36,36 +37,10 @@ intro:
     regolarmente
 
 
-    **Prefestive**
+    ****
 
 
-    * 18.00 Piumazzo _(da novembre a marzo)_
-
-    * 18.30 Castelfranco 
-
-    * 18.30 Riolo
-
-    * 18.30 Gaggio di Piano 
-
-    * 19.00 Piumazzo _(da aprile ad ottobre)_
-
-
-    **Festive**
-
-
-    * 8.00 Castelfranco
-
-    * 9.00 Recovato (tendone parrocchiale)
-
-    * 9.30 Piumazzo e Manzolino (tendone parrocchiale)
-
-    * 10.00 Castelfranco e Gaggio di Piano 
-
-    * 11.00 Piumazzo e Recovato (tendone parrocchiale)
-
-    * 11.30 Castelfranco e Manzolino (tendone parrocchiale)
-
-    * 18.30 Castelfranco (tranne il mese di Agosto)
+    ****
   links: >-
     * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
 
@@ -84,6 +59,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/11-12-2020.png)
-
-![](/img/il-nuovo-messale.jpeg)
+![](/img/25-12-2020.png)

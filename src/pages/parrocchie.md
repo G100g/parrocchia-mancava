@@ -34,13 +34,14 @@ intro:
     INFORMAZIONI
   holy_masses_hours: >-
     Per maggiori dettagli consultare l'agenda settimanale che viene pubblicata
-    regolarmente
+    regolarmente, oppure sulla apposita pagina del sito della diocesi di Bologna
+    <https://orarimesse.pmap.it/bologna>
 
 
-    ****
+    - - -
 
 
-    ****
+    - - -
   links: >-
     * [Arcidiocesi di Bologna](http://www.bologna.chiesacattolica.it/)
 
@@ -59,4 +60,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/25-12-2020.png)
+![](/img/01-01-2021.png)

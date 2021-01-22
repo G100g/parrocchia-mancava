@@ -60,4 +60,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/16-01-2021.png)
+![](/img/22-01-2021.png)

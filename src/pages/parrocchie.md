@@ -9,8 +9,8 @@ intro:
     Gaggio di Piano
 
 
-    La segreteria è aperta dal **lunedì al venerdì dalle 08:30 alle 12:30** a
-    Panzano
+    La segreteria è aperta **lunedì, martedì, giovedì e venerdì dalle 08:30 alle
+    12:30** a Panzano. Mercoledì la segreteria è chiusa al pubblico.
 
 
     Telefono: 059-926707
@@ -60,4 +60,4 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/22-01-2021.png)
+![](/img/29-01-2021.png)

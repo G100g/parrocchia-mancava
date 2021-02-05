@@ -10,7 +10,10 @@ intro:
 
 
     La segreteria è aperta **lunedì, martedì, giovedì e venerdì dalle 08:30 alle
-    12:30** a Panzano. Mercoledì la segreteria è chiusa al pubblico.
+    12:30** a Panzano. 
+
+
+    Mercoledì la segreteria è chiusa al pubblico.
 
 
     Telefono: 059-926707

@@ -63,6 +63,6 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/12-02-2021.png)
+![](/img/18-02-2021.png)
 
 ![](/img/40ore.png)

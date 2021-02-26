@@ -63,6 +63,8 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/18-02-2021.png)
+![](/img/26-02-2021.png)
 
-![](/img/40ore.png)
+![](/img/lectio-divina.png)
+
+![](/img/stazioni-quaresimali-2021.jpeg)

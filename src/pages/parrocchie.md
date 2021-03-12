@@ -63,8 +63,8 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/05-03-2021.png)
+![](/img/12-03-2021.png)
 
-![](/img/cerco-i-miei-fratelli.png)
+![](/img/a-servizio-della-parola.png)
 
 ![]()

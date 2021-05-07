@@ -63,4 +63,8 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/16-04-2021.png)
+![](/img/07-05-2021.png)
+
+![](/img/set2.png)
+
+![](/img/settimanale-30-04-2021_3.jpg)

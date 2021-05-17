@@ -7,274 +7,209 @@ import Content, { HTMLContent } from "../components/Content";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faEnvelopeSquare,
-    faPhoneSquare
+  faEnvelopeSquare,
+  faPhoneSquare,
+  faLink,
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./school.scss";
 
 export const ScuolaPageTemplate = ({
-    title,
-    content,
-    image,
-    contentComponent,
-    schoolImages
+  title,
+  content,
+  image,
+  contentComponent,
+  schoolImages,
 }) => {
-    const PageContent = contentComponent || Content;
+  const PageContent = contentComponent || Content;
 
-    return (
-        <>
-            <div
-                className="full-width-image margin-top-0"
-                style={{
-                    backgroundImage: `url(${
-                        !!image.childImageSharp
-                            ? image.childImageSharp.fluid.src
-                            : image
-                    })`,
-                    backgroundPosition: `bottom left`,
-                    backgroundAttachment: `fixed`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover"
-                }}
-            >
-                <div
-                    className="container"
-                    style={{
-                        display: "flex",
-                        height: "150px",
-                        lineHeight: "1",
-                        justifyContent: "space-around",
-                        alignItems: "left",
-                        flexDirection: "column"
-                    }}
-                >
-                    <h1
-                        className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-background-warning"
-                        style={{
-                            // boxShadow:
-                            //     "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                            // backgroundColor: "rgb(255, 68, 0)",
-                            // color: "white",
-                            lineHeight: "1",
-                            padding: "0.25em"
-                        }}
-                    >
-                        {title}
-                    </h1>
+  return (
+    <>
+      <div
+        className="full-width-image margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `bottom left`,
+          backgroundAttachment: `fixed`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div
+          className="container"
+          style={{
+            display: "flex",
+            height: "150px",
+            lineHeight: "1",
+            justifyContent: "space-around",
+            alignItems: "left",
+            flexDirection: "column",
+          }}
+        >
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen has-background-warning"
+            style={{
+              // boxShadow:
+              //     "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
+              // backgroundColor: "rgb(255, 68, 0)",
+              // color: "white",
+              lineHeight: "1",
+              padding: "0.25em",
+            }}
+          >
+            {title}
+          </h1>
+        </div>
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-8">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                La struttura
+              </h2>
+
+              <article class="message is-info">
+                <div class="message-header">
+                  <p>Le aule delle quattro sezioni</p>
                 </div>
-            </div>
-            <section className="section section--gradient">
-                <div className="container">
-                    <div className="columns">
-                        <div className="column is-8">
-                            <div className="box">
-                                <h1 className="title is-1">Bacheca avvisi</h1>
-
-                                <div className="tile">
-                                    <article className="tile is-child content">
-                                        <h2 className="title is-4">
-                                            Lunedì 2 Settembre 2019
-                                            <br />
-                                            Primo giorno insieme
-                                        </h2>
-                                        <p className="subtitle is-spaced">
-                                            Vi aspettiamo e che la festa abbia
-                                            inizio
-                                        </p>
-
-                                        <h3 className="title is-5">
-                                            Per Grandi e Mezzani
-                                        </h3>
-
-                                        <p>
-                                            Lunedì 2 Settembre e Martedì 3
-                                            settembre
-                                            <br />
-                                            <strong>
-                                                dalle 10:15 alle 16:30
-                                            </strong>
-                                        </p>
-
-                                        <p>
-                                            Da Mercoledì 4 Settembre
-                                            <br />
-                                            <strong>
-                                                dalle 8:00 alle 16:30
-                                            </strong>
-                                            <br />
-                                            (servizio pre-scuola 7:30 e post
-                                            scuola 17/17:30 in base alle
-                                            richieste, attivi )
-                                        </p>
-
-                                        <h3 className="title is-5">
-                                            Per Piccoli
-                                        </h3>
-                                        <p>
-                                            come da avviso consegnato ai
-                                            genitori
-                                        </p>
-                                    </article>
-                                </div>
-                            </div>
-
-                            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                                La struttura
-                            </h2>
-
-                            <article class="message is-info">
-                                <div class="message-header">
-                                    <p>Le aule delle quattro sezioni</p>
-                                </div>
-                                <div class="message-body">
-                                    {/* <div className="notification is-info">
+                <div class="message-body">
+                  {/* <div className="notification is-info">
                                     <p className="has-text-centered  is-size-5">
                                         Le aule delle quattro sezioni
                                     </p>
                                 </div> */}
-                                    <div className="school-images columns is-multiline ">
-                                        {schoolImages.edges
-                                            .map(({ node }) => {
-                                                return node;
-                                            })
-                                            .map(({ id, childImageSharp }) => {
-                                                return (
-                                                    <div className="school-images__image column is-half is-one-third-desktop">
-                                                        <Img
-                                                            key={id}
-                                                            fluid={
-                                                                childImageSharp.fluid
-                                                            }
-                                                        />
-                                                    </div>
-                                                );
-                                            })}
-                                    </div>
-                                </div>
-                            </article>
-                            <PageContent
-                                className="content"
-                                content={content}
-                            />
-                        </div>
-                        <aside className="column is-4">
-                            <div className="tile is-ancestor">
-                                <div className="tile-parent notification">
-                                    <div className="tile is-child content">
-                                        <h2>Contatti</h2>
-                                        <p>
-                                            Via G. D’Annunzio N° 48, 41013
-                                            <br />
-                                            Manzolino di Castelfranco Emilia (
-                                            MO)
-                                        </p>
-                                        <ul className="school-contacts__list">
-                                            <li>
-                                                <FontAwesomeIcon
-                                                    icon={faPhoneSquare}
-                                                />{" "}
-                                                <a
-                                                    href="tel:059939476"
-                                                    rel="nofollow"
-                                                >
-                                                    Tel/Fax 059 939476
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <FontAwesomeIcon
-                                                    icon={faPhoneSquare}
-                                                />{" "}
-                                                <a
-                                                    href="tel:3921719085"
-                                                    rel="nofollow"
-                                                >
-                                                    Cell 392 1719085
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <FontAwesomeIcon
-                                                    icon={faEnvelopeSquare}
-                                                />{" "}
-                                                <a href="mailto:sacrocuoremanzolino@gmail.com">
-                                                    sacrocuoremanzolino@gmail.com
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
+                  <div className="school-images columns is-multiline ">
+                    {schoolImages.edges
+                      .map(({ node }) => {
+                        return node;
+                      })
+                      .map(({ id, childImageSharp }) => {
+                        return (
+                          <div className="school-images__image column is-half is-one-third-desktop">
+                            <Img key={id} fluid={childImageSharp.fluid} />
+                          </div>
+                        );
+                      })}
+                  </div>
                 </div>
-            </section>
-        </>
-    );
+              </article>
+              <PageContent className="content" content={content} />
+            </div>
+            <aside className="column is-4">
+              <div className="tile is-ancestor">
+                <div className="tile-parent notification">
+                  <div className="tile is-child content">
+                    <h2>Contatti</h2>
+                    <p>
+                      <strong>Scuola dell’Infanzia “Sacro Cuore”</strong>
+                      Via G. D’Annunzio, 48
+                      <br />
+                      41013 Manzolino di Castelfranco Emilia (MO)
+                    </p>
+                    <ul className="school-contacts__list">
+                      <li>
+                        <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+                        <a href="tel:3317529476" rel="nofollow">
+                          Tel. Segreteria 331 7529476
+                        </a>
+                      </li>
+                      <li>
+                        <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+                        <a href="tel:059939476" rel="nofollow">
+                          Tel. Scuola 059 939476
+                        </a>
+                      </li>
+                      <li>
+                        <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
+                        <a href="mailto:sacrocuoremanzolino@gmail.com">
+                          sacrocuoremanzolino@gmail.com
+                        </a>
+                      </li>
+                      <li>
+                        <FontAwesomeIcon icon={faLink} />{" "}
+                        <strong>Facebook:</strong>
+                        <a href="https://www.facebook.com/Scuola-dellinfanzia-Sacro-Cuore-di-Manzolino-1549454572032939">
+                          Scuola dell’Infanzia “Sacro Cuore” di Manzolino
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
 ScuolaPageTemplate.propTypes = {
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string,
-    contentComponent: PropTypes.func
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string,
+  contentComponent: PropTypes.func,
 };
 
 const ScuolaPage = ({ data }) => {
-    const { markdownRemark: post, coverImage, schoolImages } = data;
-    return (
-        <Layout>
-            <ScuolaPageTemplate
-                contentComponent={HTMLContent}
-                title={post.frontmatter.title}
-                content={post.html}
-                image={coverImage}
-                schoolImages={schoolImages}
-            />
-        </Layout>
-    );
+  const { markdownRemark: post, coverImage, schoolImages } = data;
+  return (
+    <Layout>
+      <ScuolaPageTemplate
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
+        image={coverImage}
+        schoolImages={schoolImages}
+      />
+    </Layout>
+  );
 };
 
 ScuolaPage.propTypes = {
-    data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default ScuolaPage;
 
 export const scuolaPageQuery = graphql`
-    query ScuolaPage($id: String!) {
-        markdownRemark(id: { eq: $id }) {
-            html
-            frontmatter {
-                title
-            }
-        }
-        coverImage: file(relativePath: { regex: "/cover-scuola/" }) {
-            childImageSharp {
-                fluid(
-                    maxWidth: 800
-                    quality: 80 # duotone: { highlight: "#ffffff", shadow: "#663399" }
-                ) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-        schoolImages: allFile(
-            filter: { relativePath: { regex: "/scuola/foto-aula/" } }
-            sort: { fields: relativePath }
-        ) {
-            edges {
-                node {
-                    id
-                    relativePath
-                    childImageSharp {
-                        fluid(
-                            maxWidth: 800
-                            quality: 80 # duotone: { highlight: "#ffffff", shadow: "#663399" }
-                        ) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
-            }
-        }
+  query ScuolaPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+      }
     }
+    coverImage: file(relativePath: { regex: "/cover-scuola/" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 800
+          quality: 80 # duotone: { highlight: "#ffffff", shadow: "#663399" }
+        ) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    schoolImages: allFile(
+      filter: { relativePath: { regex: "/scuola/foto-aula/" } }
+      sort: { fields: relativePath }
+    ) {
+      edges {
+        node {
+          id
+          relativePath
+          childImageSharp {
+            fluid(
+              maxWidth: 800
+              quality: 80 # duotone: { highlight: "#ffffff", shadow: "#663399" }
+            ) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
 `;

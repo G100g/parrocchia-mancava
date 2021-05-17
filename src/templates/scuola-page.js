@@ -105,6 +105,7 @@ export const ScuolaPageTemplate = ({
                     <h2>Contatti</h2>
                     <p>
                       <strong>Scuola dell’Infanzia “Sacro Cuore”</strong>
+                      <br />
                       Via G. D’Annunzio, 48
                       <br />
                       41013 Manzolino di Castelfranco Emilia (MO)

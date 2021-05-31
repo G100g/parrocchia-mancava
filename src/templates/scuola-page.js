@@ -16,13 +16,14 @@ import "./school.scss";
 
 export const ScuolaPageTemplate = ({
   title,
+  contacts,
   content,
   image,
   contentComponent,
   schoolImages,
 }) => {
   const PageContent = contentComponent || Content;
-
+  console.log(contacts);
   return (
     <>
       <div
@@ -71,11 +72,11 @@ export const ScuolaPageTemplate = ({
                 La struttura
               </h2>
 
-              <article class="message is-info">
-                <div class="message-header">
+              <article className="message">
+                {/* <div className="message-header">
                   <p>Le aule delle quattro sezioni</p>
-                </div>
-                <div class="message-body">
+                </div> */}
+                <div className="message-body">
                   {/* <div className="notification is-info">
                                     <p className="has-text-centered  is-size-5">
                                         Le aule delle quattro sezioni
@@ -88,8 +89,11 @@ export const ScuolaPageTemplate = ({
                       })
                       .map(({ id, childImageSharp }) => {
                         return (
-                          <div className="school-images__image column is-half is-one-third-desktop">
-                            <Img key={id} fluid={childImageSharp.fluid} />
+                          <div
+                            key={id}
+                            className="school-images__image column is-half is-one-third-desktop"
+                          >
+                            <Img fluid={childImageSharp.fluid} />
                           </div>
                         );
                       })}
@@ -103,15 +107,42 @@ export const ScuolaPageTemplate = ({
                 <div className="tile-parent notification">
                   <div className="tile is-child content">
                     <h2>Contatti</h2>
-                    <p>
+
+                    <HTMLContent content={contacts.address} />
+
+                    {/* <p>
                       <strong>Scuola dell’Infanzia “Sacro Cuore”</strong>
                       <br />
                       Via G. D’Annunzio, 48
                       <br />
                       41013 Manzolino di Castelfranco Emilia (MO)
-                    </p>
+                    </p> */}
                     <ul className="school-contacts__list">
-                      <li>
+                      {contacts.phones.map(({ text, value }) => (
+                        <li>
+                          <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+                          <a href={`tel:${value}`} rel="nofollow">
+                            {text} {value}
+                          </a>
+                        </li>
+                      ))}
+                      {contacts.email.map(({ text, value }) => (
+                        <li>
+                          <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
+                          <a href={`mailto:${value}`} rel="nofollow">
+                            {text ? `${text}:` : ""} {value}
+                          </a>
+                        </li>
+                      ))}
+                      {contacts.links.map(({ text, value }) => (
+                        <li>
+                          <FontAwesomeIcon icon={faLink} />{" "}
+                          <a href={`${value}`} rel="nofollow">
+                            {text}
+                          </a>
+                        </li>
+                      ))}
+                      {/* <li>
                         <FontAwesomeIcon icon={faPhoneSquare} />{" "}
                         <a href="tel:3317529476" rel="nofollow">
                           Tel. Segreteria 331 7529476
@@ -122,20 +153,20 @@ export const ScuolaPageTemplate = ({
                         <a href="tel:059939476" rel="nofollow">
                           Tel. Scuola 059 939476
                         </a>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
                         <a href="mailto:sacrocuoremanzolino@gmail.com">
                           sacrocuoremanzolino@gmail.com
                         </a>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <FontAwesomeIcon icon={faLink} />{" "}
                         <strong>Facebook:</strong>
                         <a href="https://www.facebook.com/Scuola-dellinfanzia-Sacro-Cuore-di-Manzolino-1549454572032939">
                           Scuola dell’Infanzia “Sacro Cuore” di Manzolino
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -156,11 +187,18 @@ ScuolaPageTemplate.propTypes = {
 
 const ScuolaPage = ({ data }) => {
   const { markdownRemark: post, coverImage, schoolImages } = data;
+  const contacts = {
+    address: post.fields.html_school_contacts_address,
+    phones: post.frontmatter.school_contacts.phones,
+    links: post.frontmatter.school_contacts.links,
+    email: post.frontmatter.school_contacts.email,
+  };
   return (
     <Layout>
       <ScuolaPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        contacts={contacts}
         content={post.html}
         image={coverImage}
         schoolImages={schoolImages}
@@ -181,6 +219,23 @@ export const scuolaPageQuery = graphql`
       html
       frontmatter {
         title
+        school_contacts {
+          phones {
+            text
+            value
+          }
+          email {
+            text
+            value
+          }
+          links {
+            text
+            value
+          }
+        }
+      }
+      fields {
+        html_school_contacts_address
       }
     }
     coverImage: file(relativePath: { regex: "/cover-scuola/" }) {

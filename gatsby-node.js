@@ -17,6 +17,8 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               templateKey
+              cover
+              images
             }
           }
         }
@@ -32,6 +34,8 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((edge) => {
       const id = edge.node.id;
+      const cover = edge.node.frontmatter.cover || "";
+
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -41,6 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          cover,
         },
       });
     });

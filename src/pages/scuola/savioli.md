@@ -2,6 +2,13 @@
 templateKey: "scuola-page"
 path: /scuola
 title: Scuola Dell’Infanzia "Ferdinando Savioli"
+cover: "school/savioli/cover-savioli.jpg"
+images:
+  - "school/image011.jpeg"
+  - "school/image012.jpeg"
+  - "school/image013.jpeg"
+  - "school/image014.jpeg"
+  - "school/image015.jpeg"
 school_contacts:
   address: >-
     **Scuola dell'Infanzia "F. Savioli"**<br />
@@ -9,9 +16,9 @@ school_contacts:
     41013 Riolo di Castelfranco Emilia (MO)
   phones:
     - text: Tel. Segreteria
-      value: 331 7529476
+      value: "331 7529476"
     - text: Tel. Scuola
-      value: 059 937183
+      value: "059 937183"
   email:
     - text: Nido
       value: nido@scuolasavioli.it

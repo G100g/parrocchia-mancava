@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
@@ -23,14 +23,16 @@ export const ScuolaPageTemplate = ({
   schoolImages,
 }) => {
   const PageContent = contentComponent || Content;
-  console.log(contacts);
+
   return (
     <>
       <div
         className="full-width-image margin-top-0"
         style={{
           backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            image && image.childImageSharp
+              ? image.childImageSharp.fluid.src
+              : image
           })`,
           backgroundPosition: `bottom left`,
           backgroundAttachment: `fixed`,
@@ -119,7 +121,7 @@ export const ScuolaPageTemplate = ({
                     </p> */}
                     <ul className="school-contacts__list">
                       {contacts.phones.map(({ text, value }) => (
-                        <li>
+                        <li key={value}>
                           <FontAwesomeIcon icon={faPhoneSquare} />{" "}
                           <a href={`tel:${value}`} rel="nofollow">
                             {text} {value}
@@ -127,7 +129,7 @@ export const ScuolaPageTemplate = ({
                         </li>
                       ))}
                       {contacts.email.map(({ text, value }) => (
-                        <li>
+                        <li key={value}>
                           <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
                           <a href={`mailto:${value}`} rel="nofollow">
                             {text ? `${text}:` : ""} {value}
@@ -135,7 +137,7 @@ export const ScuolaPageTemplate = ({
                         </li>
                       ))}
                       {contacts.links.map(({ text, value }) => (
-                        <li>
+                        <li key={value}>
                           <FontAwesomeIcon icon={faLink} />{" "}
                           <a href={`${value}`} rel="nofollow">
                             {text}
@@ -214,7 +216,7 @@ ScuolaPage.propTypes = {
 export default ScuolaPage;
 
 export const scuolaPageQuery = graphql`
-  query ScuolaPage($id: String!) {
+  query ScuolaPage($id: String!, $cover: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -238,7 +240,7 @@ export const scuolaPageQuery = graphql`
         html_school_contacts_address
       }
     }
-    coverImage: file(relativePath: { regex: "/cover-scuola/" }) {
+    coverImage: file(relativePath: { eq: $cover }) {
       childImageSharp {
         fluid(
           maxWidth: 800

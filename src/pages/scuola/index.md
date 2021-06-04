@@ -2,6 +2,7 @@
 templateKey: "scuola-page"
 path: /scuola
 title: Scuola Dell’Infanzia Sacro Cuore
+cover: "school/cover-scuola.jpeg"
 school_contacts:
   address: >-
     **Scuola dell’Infanzia “Sacro Cuore”**<br />
@@ -9,9 +10,9 @@ school_contacts:
     41013 Manzolino di Castelfranco Emilia (MO)
   phones:
     - text: Tel. Segreteria
-      value: 3317529476
+      value: "3317529476"
     - text: Tel. Scuola
-      value: 059939476
+      value: "059939476"
   email:
     - value: sacrocuoremanzolino@gmail.com
   links:

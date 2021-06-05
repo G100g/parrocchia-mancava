@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent has-background-primary"
+        className="navbar is-primary"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -68,7 +68,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-end has-text-centered">
               <Link
-                className=" navbar-item has-text-white has-text-weight-bold"
+                className=" navbar-item has-text-weight-bold"
                 to="/parrocchie"
                 activeClassName="has-text-black"
               >
@@ -83,9 +83,7 @@ const Navbar = class extends React.Component {
                             </Link> */}
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link has-text-white has-text-weight-bold">
-                  Scuole
-                </a>
+                <a className="navbar-link has-text-weight-bold">Scuole</a>
 
                 <div className="navbar-dropdown">
                   <Link className="navbar-item" to="/scuola">

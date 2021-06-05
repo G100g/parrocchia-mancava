@@ -23,7 +23,7 @@ export const ScuolaPageTemplate = ({
   schoolImages,
 }) => {
   const PageContent = contentComponent || Content;
-
+  console.log(schoolImages);
   return (
     <>
       <div
@@ -70,10 +70,7 @@ export const ScuolaPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-8">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                La struttura
-              </h2>
-
+              <PageContent className="content" content={content} />
               <article className="message">
                 {/* <div className="message-header">
                   <p>Le aule delle quattro sezioni</p>
@@ -85,27 +82,27 @@ export const ScuolaPageTemplate = ({
                                     </p>
                                 </div> */}
                   <div className="school-images columns is-multiline ">
-                    {schoolImages.edges
-                      .map(({ node }) => {
-                        return node;
-                      })
-                      .map(({ id, childImageSharp }) => {
-                        return (
-                          <div
-                            key={id}
-                            className="school-images__image column is-half is-one-third-desktop"
-                          >
-                            <Img fluid={childImageSharp.fluid} />
-                          </div>
-                        );
-                      })}
+                    {schoolImages &&
+                      schoolImages.edges
+                        .map(({ node }) => {
+                          return node;
+                        })
+                        .map(({ id, childImageSharp }) => {
+                          return (
+                            <div
+                              key={id}
+                              className="school-images__image column is-half is-one-third-desktop"
+                            >
+                              <Img fluid={childImageSharp.fluid} />
+                            </div>
+                          );
+                        })}
                   </div>
                 </div>
               </article>
-              <PageContent className="content" content={content} />
             </div>
             <aside className="column is-4">
-              <div className="tile is-ancestor">
+              <div className="tile is-ancestor sticky-content">
                 <div className="tile-parent notification">
                   <div className="tile is-child content">
                     <h2>Contatti</h2>
@@ -216,7 +213,7 @@ ScuolaPage.propTypes = {
 export default ScuolaPage;
 
 export const scuolaPageQuery = graphql`
-  query ScuolaPage($id: String!, $cover: String!) {
+  query ScuolaPage($id: String!, $cover: String!, $images: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -251,7 +248,10 @@ export const scuolaPageQuery = graphql`
       }
     }
     schoolImages: allFile(
-      filter: { relativePath: { regex: "/scuola/foto-aula/" } }
+      filter: {
+        relativePath: { regex: $images }
+        sourceInstanceName: { eq: "images" }
+      }
       sort: { fields: relativePath }
     ) {
       edges {

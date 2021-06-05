@@ -2,13 +2,8 @@
 templateKey: "scuola-page"
 path: /scuola
 title: Scuola Dell’Infanzia "Ferdinando Savioli"
-cover: "school/savioli/cover-savioli.jpg"
-images:
-  - "school/image011.jpeg"
-  - "school/image012.jpeg"
-  - "school/image013.jpeg"
-  - "school/image014.jpeg"
-  - "school/image015.jpeg"
+cover: "scuola/cover-savioli.jpg"
+imagesRegex: "/scuola/savioli/"
 school_contacts:
   address: >-
     **Scuola dell'Infanzia "F. Savioli"**<br />

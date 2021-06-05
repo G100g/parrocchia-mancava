@@ -18,7 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               templateKey
               cover
-              images
+              imagesRegex
             }
           }
         }
@@ -35,6 +35,7 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach((edge) => {
       const id = edge.node.id;
       const cover = edge.node.frontmatter.cover || "";
+      const images = edge.node.frontmatter.imagesRegex || "";
 
       createPage({
         path: edge.node.fields.slug,
@@ -46,6 +47,7 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           id,
           cover,
+          images,
         },
       });
     });

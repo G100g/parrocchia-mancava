@@ -2,7 +2,8 @@
 templateKey: "scuola-page"
 path: /scuola
 title: Scuola Dell’Infanzia Sacro Cuore
-cover: "school/cover-scuola.jpeg"
+cover: "scuola/cover-scuola.jpeg"
+imagesRegex: "/scuola\/sacrocuore/"
 school_contacts:
   address: >-
     **Scuola dell’Infanzia “Sacro Cuore”**<br />

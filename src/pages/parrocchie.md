@@ -63,12 +63,12 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/skm_c25821061811280_0001.jpg)
+![](/img/23-07-2021.png)
 
-![](/img/skm_c25821061811280_0002.jpg)
+![](/img/settimanale-estivo.png)
 
-![](/img/skm_c25821061811280_0003.jpg)
+![]()
 
-![](/img/skm_c25821061811280_0005.jpg)
+![]()
 
-![](/img/skm_c25821061811280_0004.jpg)
+![]()

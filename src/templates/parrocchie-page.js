@@ -1,13 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, Link } from "gatsby";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faSchool,
-    faChild,
-    faArrowCircleRight
-} from "@fortawesome/free-solid-svg-icons";
+import { graphql } from "gatsby";
 
 import Content, { HTMLContent } from "../components/Content";
 import WidgetLiturgiaGiorno from "../components/WidgteLiturgia";
@@ -15,11 +8,11 @@ import WidgetLiturgiaGiorno from "../components/WidgteLiturgia";
 
 import Layout from "../components/Layout";
 
-export const IndexPageTemplate = ({
+const IndexPageTemplate = ({
     content,
     content_contacts,
     content_holy_masses,
-    contentComponent
+    contentComponent,
 }) => {
     const PageContent = contentComponent || Content;
     return (
@@ -187,7 +180,7 @@ IndexPageTemplate.propTypes = {
     content: PropTypes.string,
     content_holy_masses: PropTypes.string,
     content_contacts: PropTypes.string,
-    contentComponent: PropTypes.func
+    contentComponent: PropTypes.func,
 };
 
 const IndexPage = ({ data }) => {
@@ -209,9 +202,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
     data: PropTypes.shape({
         markdownRemark: PropTypes.shape({
-            frontmatter: PropTypes.object
-        })
-    })
+            frontmatter: PropTypes.object,
+        }),
+    }),
 };
 
 export default IndexPage;

@@ -5,12 +5,10 @@ intro:
     #### Segreteria Parrocchiale
 
 
-    delle comunità di Cavazzona Manzolino Panzano Recovato Riolo Rastellino
-    Gaggio di Piano
+    delle comunità di Cavazzona Manzolino Panzano Recovato Riolo Rastellino Gaggio di Piano
 
 
-    La segreteria è aperta **lunedì, martedì, giovedì e venerdì dalle 08:30 alle
-    12:30** a Panzano. 
+    La segreteria è aperta **lunedì, martedì, giovedì e venerdì dalle 08:30 alle 12:30** a Panzano. 
 
 
     Mercoledì la segreteria è chiusa al pubblico.
@@ -52,8 +50,7 @@ intro:
 
     * [Maràn athà](https://www.maranatha.it/index.htm)
 
-    * [Parrocchia di Castelfranco
-    Emilia](http://www.parrocchiacastelfrancoe.it/)
+    * [Parrocchia di Castelfranco Emilia](http://www.parrocchiacastelfrancoe.it/)
 
     * [Parrocchia di Piumazzo](https://www.parrocchiapiumazzo.com/)
 
@@ -65,7 +62,7 @@ intro:
 ---
 ![](/img/23-07-2021.png)
 
-![](/img/settimanale-estivo.png)
+![]()
 
 ![]()
 

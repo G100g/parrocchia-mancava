@@ -60,7 +60,7 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![]()
+![](/img/whatsapp-image-2025-04-28-at-16.26.59.jpeg)
 
 ![]()
 

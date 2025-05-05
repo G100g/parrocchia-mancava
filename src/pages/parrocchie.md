@@ -60,7 +60,7 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/23-07-2021.png)
+![]()
 
 ![]()
 

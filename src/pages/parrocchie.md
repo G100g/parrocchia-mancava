@@ -60,7 +60,7 @@ intro:
 
     * [www.chiesacattolica.it](https://www.chiesacattolica.it/)
 ---
-![](/img/24-07-2020-cinetour-sotto-le-stelle.jpeg)
+![](/img/whatsapp-image-2025-04-28-at-16.26.59.jpeg)
 
 ![]()
 
